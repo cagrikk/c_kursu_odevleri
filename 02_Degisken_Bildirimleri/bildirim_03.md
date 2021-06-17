@@ -6,6 +6,7 @@
 + _char_ türünün işaretli ya da işaretsiz olması derleyiciye bağlıdır _(implementation defined)_
 + işaretli tamsayı türlerinde taşma tanımsız davranıştır _(undefined behavior)_.
 + işaretsiz tamsayı türlerinde taşma tanımsız davranıştır _(undefined behavior)_.
-+ ```int x;``` biçiminde bildirilen x değişkeni işaretli tamsayı türündendir.
++ ```int x;``` biçiminde bildirilen x değişkeni işaretli int türündendir.
 + _long_ türünden bir değişken _int_ türünden bir değişkene göre daha büyük tam sayıları tutabilir.
++ ```signed x;``` biçiminde bildirilen x değişkeni işaretli char türündendir.
 
